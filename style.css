@@ -40,23 +40,21 @@ padding: 10px;
 }
 
 
-.card{
-
+.card {
+    position: relative; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
-    align-items: center;;
+    align-items: center;
     color: rgb(124, 124, 124);
-    margin-top: 10%;
     padding: 10px;
+    width: 20rem; 
     background-color: rgba(0, 0, 0, 0.904);
-    margin: 100px ;
     border-radius: 10px;
     opacity: 60%;
     
-
-
-
 }
-
 
 .card-head{
     justify-content: center;
