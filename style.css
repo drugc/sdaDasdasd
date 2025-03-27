@@ -20,14 +20,36 @@ img{
 
 
 .logo{
-padding: 10px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(85, 85, 85);
     border-bottom: 1px rgb(22, 22, 22) solid;
- 
+
+    border-radius: 10px;
+
 }
+.online{
+    padding: 1px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 11px;
+    font-size: small;
+    position: fixed;
+    margin-left: 50%;
+    font-weight: 200;
+    font-family: italic;
+   
+
+}
+.online span{
+    color: chartreuse;
+  
+    }
 
 .container{
     max-width: 920vmax;
@@ -52,9 +74,10 @@ padding: 10px;
     width: 20rem; 
     background-color: rgba(0, 0, 0, 0.904);
     border-radius: 10px;
-    opacity: 60%;
+    opacity: 50%;
     
 }
+
 
 .card-head{
     justify-content: center;
@@ -79,11 +102,13 @@ padding: 10px;
     display: flex;
     justify-content: space-between;
     border-top: 1px black solid;
+    padding-top: 8px ;
+    margin-bottom: 10px;
     
 }
 
 input{
-    padding: 13px;
+    padding:13px;
     border: 1px black solid;
     outline: none;
     border: none;
@@ -98,12 +123,12 @@ input{
 }
 button{
     padding: 0.8rem;
-    border-radius: 12%;
+    border-radius: 100%;
     outline-offset: none;
     border: none;
-   margin: 5px;
+    margin: 5px;
     color: rgb(0, 0, 0);
-    background-color:  rgb(78, 119, 110);
+    background-color:  #f1975ac7;
     font-size: 0.9rem;
 }
 
